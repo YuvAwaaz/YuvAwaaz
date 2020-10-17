@@ -1,0 +1,27 @@
+.navbar {
+    color: black;
+    width: 100%;
+    background: #a1a1a1 !important;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    margin-left: 1rem !important;
+}
+
+.logo {
+    width: 4rem;
+}
+
+.social-icons a {
+    color: white !important;
+}
+
+.social-icons i {
+    margin-right: 0.7rem;
+    transition: color 150ms ease;
+}
+
+.social-icons i:hover {
+    color: #007bff!important;
+}
