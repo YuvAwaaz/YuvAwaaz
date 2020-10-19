@@ -1,17 +1,20 @@
 import React, { Component } from 'react'
-//import 'semantic-ui-css/semantic.min.css'
+import 'semantic-ui-css/semantic.min.css'
 import './Header.css';
-import logo from '../assest/YuvAwaaz_logo.png';
 
 export class Header extends Component {
     render() {
         return (
-            
-            <nav class="navbar navbar-light d-flex flex-row justify-content-between align-items-center">
-                <div class="logo-content">
-                    <img src={logo} class="logo"/>
-                    <span class="navbar-brand mb-0 h1">YuvAwaaz</span>
-                </div>
+            <div class="main-header">
+                <h2 class="ui header">
+                    <img src="/YuvAwaaz_logo.png"/>
+                    <div class="content">
+                        YuvAwaaz
+                    <div class="sub header">
+                        Your Compelete Guide
+                    </div>
+                    </div>
+                </h2>
 
                 <div class="social-icons">
                     <a href="https://www.facebook.com/yuvawaaz" target="_blank">
@@ -23,10 +26,8 @@ export class Header extends Component {
                     <a href="https://www.instagram.com/yuvawaaz/" target="_blank">
                         <i class="fab fa-instagram fa-2x"></i>
                     </a>
-                </div>
-                    
-            </nav>
-            
+                 </div>
+            </div>
             
         )
     }

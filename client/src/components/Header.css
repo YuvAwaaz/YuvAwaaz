@@ -1,20 +1,18 @@
-.navbar {
-    color: black;
+.main-header {
     width: 100%;
-    background: #a1a1a1 !important;
-    padding: 0.5rem 1rem;
+    background: #d1d1d1 !important;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navbar-brand {
-    margin-left: 1rem !important;
-}
-
-.logo {
-    width: 4rem;
+.header {
+    margin: 0 !important;
 }
 
 .social-icons a {
-    color: white !important;
+    color: black !important;
 }
 
 .social-icons i {
@@ -23,5 +21,5 @@
 }
 
 .social-icons i:hover {
-    color: #007bff!important;
+    color: #007bff !important;
 }
