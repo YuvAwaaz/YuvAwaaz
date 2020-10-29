@@ -2,7 +2,9 @@ const express = require('express')
 const app = express()
 var server = require('http').createServer(app)
 app.use(express.json())
-// require('./src/db/mongoose')
+require('./src/db/mongoose')
+const newsRouter = require('./src/routes/news')
+app.use(newsRouter)
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'))
