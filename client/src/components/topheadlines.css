@@ -1,0 +1,52 @@
+.headlines {
+    margin: 1rem 0 1rem 1.5rem;
+    font-size: 1.3rem !important;
+}
+
+@media only screen and (max-width:1158px){
+
+    .header hr{
+        width: 65% !important;
+    }
+
+}
+
+@media only screen and (max-width:1042px){
+
+    .header hr{
+        width: 60% !important;
+    }
+
+}
+
+@media only screen and (max-width:898px){
+
+    .header hr{
+        width: 55% !important;
+    }
+
+}
+
+@media only screen and (max-width:782px){
+
+    .header hr{
+        width: 50% !important;
+    }
+
+}
+
+@media only screen and (max-width:714px){
+
+    .header hr{
+        width: 40% !important;
+    }
+
+}
+
+@media only screen and (max-width:590px){
+
+    .header hr{
+        width: 35% !important;
+    }
+
+}

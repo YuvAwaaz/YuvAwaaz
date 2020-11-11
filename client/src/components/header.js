@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import 'semantic-ui-css/semantic.min.css'
-import './Header.css';
+import './header.css';
 
 export class Header extends Component {
     render() {

@@ -1,0 +1,30 @@
+.main-content{
+    width: 92vw;
+    margin: 0 auto;
+    padding: 1rem 0 !important;
+    margin-top: 1rem;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header p{
+    text-transform: uppercase !important;
+    margin : 0 !important;
+    font-weight: 400 !important;
+    font-size: 1.9rem !important;
+}
+
+.header hr{
+    width: 70%;
+    height: 3px;
+    margin-left: 1rem;
+    margin-bottom: 4px;
+    background-color: gray;
+    border: none;
+}
